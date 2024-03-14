@@ -2,21 +2,22 @@
 
 Console.WriteLine("Hello, World!!!!");
 
-static double getAvg(int[] tab1)
+
+static double getAvg(int[] arr)
 {
     int sum = 0;
     
-    for (int i = 0; i < tab1.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        sum += tab1[i];
+        sum += arr[i];
     }
     
-    return sum / tab1.Length;
+    return sum / arr.Length;
 }
 
-static double getMax(int[] tab1)
+static double getMax(int[] arr)
 {
-    return tab1.Max();
+    return arr.Max();
 }
 
 int[] tab = { 1, 2, 3, 4, 5 };
